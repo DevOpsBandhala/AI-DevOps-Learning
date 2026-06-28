@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'AI-DevOps-Learning',
-  tagline: 'Dinosaurs are cool',
+  title: 'Bands : AI-DevOps-Learning',
+  tagline: 'Empowering Infrastructure Engineers with AI & Cloud Automation',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -112,23 +112,11 @@ const config: Config = {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/DevOpsBandhala/AI-DevOps-Learning',
@@ -136,7 +124,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AI-DevOps-Learning, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © Bands ${new Date().getFullYear()} AI-DevOps-Learning, Inc.`,
     },
     prism: {
       theme: prismThemes.github,
