@@ -19,7 +19,10 @@ const sidebars: SidebarsConfig = {
   // But you can create a sidebar manually
   tutorialSidebar: [
     'introduction',
-    'ai-devops-roadmap',
+    'Path-to-Basics',
+    'Roadmap',
+    'Prompt-Engineering',
+    'Local-Modules'
   ],
 };
 
