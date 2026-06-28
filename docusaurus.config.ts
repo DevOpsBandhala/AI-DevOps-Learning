@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://DevOpsBandhala.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/AI-DevOps-Learning/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'DevOpsBandhala', // Usually your GitHub org/user name.
   projectName: 'AI-DevOps-Learning', // Usually your repo name.
+  trailingSlash: false, // Explicitly set to fix the GitHub Pages deployment warning
 
   onBrokenLinks: 'throw',
 
@@ -43,8 +43,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/DevOpsBandhala/AI-DevOps-Learning/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/DevOpsBandhala/AI-DevOps-Learning/tree/master/',
         },
         blog: {
           showReadingTime: true,
@@ -54,8 +53,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/DevOpsBandhala/AI-DevOps-Learning/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/DevOpsBandhala/AI-DevOps-Learning/tree/master/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
